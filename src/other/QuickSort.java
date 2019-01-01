@@ -25,10 +25,10 @@ import javafx.stage.Stage;
  * @date 2018/12/26
  */
 public class QuickSort extends Application {
-    int[] sort;
-    StringBuffer webPrint = new StringBuffer();
-    int temp;
-    int count = 0;
+    private int[] sort;
+    private StringBuffer webPrint = new StringBuffer();
+    private int temp;
+    private int count = 0;
 
     public static void main(String[] args) {
         launch(args);

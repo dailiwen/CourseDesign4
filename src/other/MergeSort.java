@@ -30,11 +30,8 @@ import javafx.stage.Stage;
  * @date 2018/12/26
  */
 public class MergeSort extends Application {
-    int[] sort;
-    StringBuffer webPrint = new StringBuffer();
-    int gap;
-    int count = 0;
-    List<String> tree = new ArrayList<>();
+    private int[] sort;
+    private StringBuffer webPrint = new StringBuffer();
 
     public static void main(String[] args) {
         launch(args);
